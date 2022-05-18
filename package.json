@@ -1,0 +1,46 @@
+{
+  "name": "react-role-based",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@restart/ui": "^1.1.0",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "@webcallzcc/react-sip": "git+https://github.com/webcallzcc/react-sip.git#zcc_1.0.2",
+    "material-ui": "^0.20.2",
+    "moment": "^2.29.1",
+    "react": "^16.13.1",
+    "react-addons-css-transition-group": "^15.6.2",
+    "react-bootstrap": "^2.2.1",
+    "react-data-table-component": "^7.4.7",
+    "react-data-table-component-extensions": "^1.5.2",
+    "react-datepicker": "^2.14.1",
+    "react-dom": "^16.13.1",
+    "react-notification-system": "^0.4.0",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.4.1",
+    "styled-components": "^5.3.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

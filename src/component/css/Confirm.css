@@ -1,0 +1,52 @@
+#confirm {
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0,0,0, 0.85);
+    padding: 50px 0px;
+    z-index: 200;
+}
+
+#confirm .confirm-body {
+    background-color: #fff;
+    color: black;
+    width: 35%;
+    min-width: '350px';
+    max-width: '450px';
+    height: 230px;
+    border-radius: 8px;
+}
+
+#confirm .confirm-title {
+    text-align: center;
+    color: black;
+}
+
+#confirm .confirm-title-name {
+    margin-top: 20px;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+
+#confirm .confirm-title-uri {
+    margin-top: 20px;
+}
+
+#confirm .confirm-button {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#confirm .confirm-btn-fa {
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 12px;
+    padding: 10px 20px;
+}

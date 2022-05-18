@@ -1,0 +1,61 @@
+#recent-consent {
+  max-width: 100vw !important;
+  min-width: 100vw !important;
+  min-height: 100vh !important;
+  height: 100vh !important;
+}
+
+#recent-consent .card {
+  min-height: 100vh;
+  background: #f4f5f7;
+  color: rgba(255,255,255,1.0);
+}
+
+#recent-consent .card-header {
+  height: 120px;
+}
+
+#recent-consent .card-body {
+  transition: all 0.3s ease;
+}
+
+#recent-consent .phoneNum {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#recent-consent .numDisplay {
+  border-bottom: solid 2px #fff;
+  height: 60% !important;
+}
+
+#recent-consent .icon-table-svg {
+  width: 35px;
+  height: 35px;
+}
+
+
+#recent-consent #recent-consent-body {
+  width: 100%;
+  height: calc(100vh - 130px);
+  overflow: auto;
+
+}
+
+
+#recent-consent .call-image {
+  margin-right: 8px;
+  width: 15px;
+  height: 15px;
+}
+
+#recent-consent .btn-fa {
+  width: 30px;
+  height: 30px;
+  padding: 0;
+  border-radius: 15px;
+  margin-right: 5px;
+}

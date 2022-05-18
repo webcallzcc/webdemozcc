@@ -1,0 +1,52 @@
+#incoming {
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0,0,0, 0.85);
+    padding: 50px 0px;
+    z-index: 300;
+}
+
+#incoming .incoming-body {
+    background-color: #fff;
+    color: black;
+    width: 35%;
+    min-width: '350px';
+    max-width: '450px';
+    height: 230px;
+    border-radius: 8px;
+}
+
+#incoming .incoming-title {
+    text-align: center;
+    color: black;
+}
+
+#incoming .incoming-title-name {
+    margin-top: 20px;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+
+#incoming .incoming-title-uri {
+    margin-top: 20px;
+}
+
+#incoming .incoming-button {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#incoming .incoming-btn-fa {
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 12px;
+    padding: 10px 20px;
+}

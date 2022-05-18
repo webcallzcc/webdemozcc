@@ -1,0 +1,198 @@
+#phone {
+    max-width: 100vw !important;
+    min-width: 100vw !important;
+    min-height: 100vh !important;
+    height: 100vh !important;
+}
+
+#phone .card {
+    min-height: 100vh;
+    background: #f4f5f7;
+    color: rgba(255,255,255,1.0);
+}
+
+#phone .card-header {
+    height: 120px;
+}
+
+#phone .phone-body {
+    margin-top: 8px;
+}
+
+#phone .phoneNum {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#phone .numDisplay {
+    border-bottom: solid 2px #fff;
+    height: 60% !important;
+}
+
+
+#phone .phone-dtmf {
+    justify-content: center;
+    display: flex;
+    height: calc(100vh - 150px);
+    width: min(600px, 100vw);
+    border: solid 1px black;
+}
+
+#phone #sip-dialpad {
+    width: 100%;
+}
+#phone #sip-dialpad .col-xs-4 {
+    text-align: center;
+}
+
+#phone .sip-digit {
+    width: 100%;
+    height: 20%;
+    display: flex;
+}
+
+#phone .digit {
+    font-weight: 600;
+    font-size: 24px;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 30%;
+    height: 100%;
+    padding: 0;
+    margin: 0 5px;
+    border-top: solid 2px #000000c7;
+    color: #000000c7;
+}
+
+
+#phone .digit:hover {
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+#phone .digit span {
+    color: #fff;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+#phone .btn-digit-number{
+    font-size: 2.8em;
+}
+
+#phone .spec-digit {
+    font-weight: 600;
+    font-size: 24px;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 30%;
+    height: 100%;
+    padding: 0;
+    margin: 0 5px;
+    border-top: solid 2px white;
+    color: white;
+}
+
+#phone .phone-call {
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+}
+
+#phone .btnCall {
+    filter: rgb(52, 179, 85) !important;
+}
+
+
+#phone .btnCancle {
+    filter: rgb(255, 64, 84) !important;
+}
+
+
+#phone .btnVolume {
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    background: #ebebeb;
+    border-radius: 5px;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+#phone .btnVolume:hover {
+    background: #d9d7d7;
+    border: solid 1px #b0b0ff;
+}
+
+
+#phone .btnMicrophone {
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    background: #ebebeb;
+    border-radius: 5px;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+#phone .btnMicrophone:hover {
+    background: #d9d7d7;
+    border: solid 1px #b0b0ff;
+}
+
+#phone .input-process {
+    width: 420px;
+    height: 25px;
+    border-radius: 8px;
+    border: solid 1px #bbbbbb;
+    margin-left: 10px;
+    display: flex;
+}
+
+#phone .process-bar {
+    width: 16px;
+    height: 23px;
+}
+
+#phone .process-bar-on {
+    background: #8fa7ff;
+}
+
+#phone .process-bar-on-first {
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+
+#phone .process-bar-on-end {
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+
+#phone .process-bar-grant {
+    background: #9b9b9b;
+    border-radius: 8px;
+}
+
+#phone .sip-content-svg {
+    width: 100%;
+    height: 100%;
+    max-width: 100px;
+    max-height: 100px;
+    min-width: 30px;
+    min-height: 30px;
+}
